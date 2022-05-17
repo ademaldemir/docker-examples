@@ -6,7 +6,7 @@ COPY /app/package.json .
 
 RUN npm install
 
-COPY . .
+COPY /app .
 
 EXPOSE 4000
 # required for docker desktop port mapping
